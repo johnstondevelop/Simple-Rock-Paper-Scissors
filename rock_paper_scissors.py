@@ -26,5 +26,5 @@ while True:
     elif play_again == "yes":
         print("Then lets play again!")
     
-    player_move = input.lower()
+    player_move = input("Enter your move!").lower()
     break
