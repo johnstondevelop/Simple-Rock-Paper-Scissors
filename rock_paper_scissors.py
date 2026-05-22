@@ -22,3 +22,5 @@ else:
 play_again = input("Do you want to play again? (yes or no):").lower()
 if play_again != "yes":
         print("Thanks for playing!")
+else:
+        print("Then lets play again!")
