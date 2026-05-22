@@ -23,6 +23,8 @@ while True:
     play_again = input("Do you want to play again? (yes or no):").lower()
     if play_again != "yes":
         print("Thanks for playing!")
-    else:
+    elif play_again == "yes":
         print("Then lets play again!")
-        break
+    
+    player_move = input.lower()
+    break
