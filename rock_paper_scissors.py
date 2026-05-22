@@ -9,6 +9,7 @@ while True:
 
     if player_move not in moves:
         print("Invalid Move! Please enter 'rock', 'paper', or 'scissors'.")
+        continue
     else:
 
         computer_move = random.choice(moves)
@@ -25,6 +26,5 @@ while True:
         print("Thanks for playing!")
     elif play_again == "yes":
         print("Then lets play again!")
-    
-    player_move = input("Enter your move!").lower()
+        continue
     break
