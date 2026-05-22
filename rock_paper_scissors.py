@@ -16,8 +16,8 @@ if player_move == computer_move:
         print("It's a tie!")
 elif (player_move == "rock" and computer_move == "scissors") or (player_move == "scissors" and computer_move == "paper") or (player_move == "paper" and computer_move == "rock"):
     print("You Win!")
-
-print("You Lose!")
+else:
+    print("You Lose!")
 
 play_again = input("Do you want to play again? (yes or no):").lower()
 if play_again != "yes":
